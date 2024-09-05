@@ -12,11 +12,34 @@
         body {
             background-color: beige;
         }
-        .headings > *:nth-child(odd) {
+        textarea {
+            width: 100%;
+            height: 30em;
+        }
+        h1 {
+            color: red;
+        }
+        h2 {
+            color: green;
+        }
+        h3 {
             color: blue;
         }
-        .headings > *:nth-child(even) {
-            color: red;
+        h4 {
+            color: orange;
+        }
+        h5 {
+            color: indigo;
+        }
+        h6 {
+            color: teal;
+        }
+        p {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .headings {
+            font-size: 18px;
         }
     </style>
 </head>
@@ -32,7 +55,78 @@
     </div>
 
     <div>
-        <p>Welcome to Kyucsa Session</p>
+        <p id="tag-line">Welcome to Kyucsa Session</p>
+    </div>
+
+    <div>
+        <h4>Areas Covered in Kyucsa Session</h4>
+        <ul>
+            <li>Headings, h1-h6</li>
+            <li>Title</li>
+            <li>Paragraphs</li>
+            <li>Containers, divs</li>
+            <li>Internal Css: selectors, font-style, font-size, font-weight, font-color, background-color <br> Selectors, Class Selector(.), Id Selector(#), Universal Selector(*)</li>
+        </ul>
+        
+        <textarea>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>WEB DEV SESSION</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: beige;
+        }
+        h1 {
+            color: red;
+        }
+        h2 {
+            color: green;
+        }
+        h3 {
+            color: blue;
+        }
+        h4 {
+            color: orange;
+        }
+        h5 {
+            color: indigo;
+        }
+        h6 {
+            color: teal;
+        }
+        p {
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .headings {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="headings">
+        <h1>THIS IS KYUCSA</h1>
+        <h2>THIS IS KYUCSA</h2>
+        <h3>THIS IS KYUCSA</h3>
+        <h4>THIS IS KYUCSA</h4>
+        <h5>THIS IS KYUCSA</h5>
+        <h6>THIS IS KYUCSA</h6>
+    </div>
+
+    <div>
+        <p id="tag-line">Welcome to Kyucsa Session</p>
+    </div>
+</body>
+</html>
+        </textarea>
     </div>
 </body>
 </html>
